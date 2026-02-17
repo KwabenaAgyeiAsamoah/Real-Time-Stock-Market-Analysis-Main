@@ -1,0 +1,616 @@
+2026-02-10 14:17:57,745 - INFO - Stocks TSLA loaded successfully
+2026-02-10 14:17:58,502 - INFO - Stocks MSFT loaded successfully
+2026-02-10 14:17:59,654 - INFO - Stocks GOOGL loaded successfully
+2026-02-10 14:17:59,664 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-10 14:18:00,564 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-10 14:18:00,564 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-10 14:18:00,698 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-10 14:18:00,698 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-10 14:18:00,698 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-10 14:18:02,395 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:02,541 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:02,652 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:02,785 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:02,973 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:03,084 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:03,202 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:03,316 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:03,430 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:03,539 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:03,649 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:04,346 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:04,471 - ERROR - Topic stock_analysis not found in cluster metadata
+2026-02-10 14:18:05,096 - WARNING - <Sender client_id=kafka-python-producer-1 transactional_id=None>: Got error produce response on topic-partition TopicPartition(topic='stock_analysis', partition=0), retrying (inf attempts left): type
+2026-02-10 18:28:58,775 - INFO - Stocks TSLA loaded successfully
+2026-02-10 18:28:59,551 - INFO - Stocks MSFT loaded successfully
+2026-02-10 18:29:00,235 - INFO - Stocks GOOGL loaded successfully
+2026-02-10 18:29:00,245 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-10 18:29:00,546 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-10 18:29:00,546 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-10 18:29:00,671 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-10 18:29:00,672 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-10 18:29:00,672 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-10 18:39:07,279 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-02-10 18:39:07,289 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-10 18:50:37,363 - INFO - Stocks TSLA loaded successfully
+2026-02-10 18:50:38,122 - INFO - Stocks MSFT loaded successfully
+2026-02-10 18:50:38,825 - INFO - Stocks GOOGL loaded successfully
+2026-02-10 18:50:38,836 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-10 18:50:39,019 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-10 18:50:39,020 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-10 18:50:39,137 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-10 18:50:39,137 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-10 18:50:39,137 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-10 19:00:39,748 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-02-10 19:00:39,753 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-11 14:27:03,283 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-11 14:27:03,742 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-11 14:27:03,742 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-11 14:27:04,319 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:06,837 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:09,531 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:12,108 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:14,679 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:17,205 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:19,751 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:22,272 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:24,782 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:27,330 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:29,912 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:32,439 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:35,050 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:37,648 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:40,294 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:42,939 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:45,603 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:48,241 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:50,893 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:53,704 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:56,194 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:27:59,005 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:01,642 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:04,229 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:06,809 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:09,397 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:12,022 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:14,660 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:17,265 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:19,909 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:22,674 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:40,271 - ERROR - API request failed: HTTPSConnectionPool(host='alpha-vantage.p.rapidapi.com', port=443): Read timed out. (read timeout=15)
+2026-02-11 14:28:42,771 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:45,299 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:47,843 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:50,367 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:52,908 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:55,494 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:28:58,005 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:00,532 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:03,000 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:05,523 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:08,030 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:10,517 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:13,001 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:15,477 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:17,958 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:20,446 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:22,919 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:25,394 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:27,882 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:30,380 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:32,861 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:35,355 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:37,888 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:40,401 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:42,909 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:45,415 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:47,924 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:50,444 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:52,982 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:55,507 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:29:57,983 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:00,458 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:03,029 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:05,508 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:08,005 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:10,481 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:12,978 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:15,518 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:17,999 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:20,493 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:22,959 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:25,446 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:27,917 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:30,543 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:33,150 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:35,749 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:38,378 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:40,971 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:43,799 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:46,294 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:49,156 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:51,719 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:54,288 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:56,827 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:30:59,501 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:02,082 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:04,688 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:07,309 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:09,942 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:12,569 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:15,224 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:17,899 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:35,521 - ERROR - API request failed: HTTPSConnectionPool(host='alpha-vantage.p.rapidapi.com', port=443): Read timed out. (read timeout=15)
+2026-02-11 14:31:38,004 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:40,520 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:42,999 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:45,488 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:47,961 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:50,442 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:31:52,920 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:03,785 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-11 14:32:03,785 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-11 14:32:03,785 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-11 14:32:10,478 - ERROR - API request failed: HTTPSConnectionPool(host='alpha-vantage.p.rapidapi.com', port=443): Read timed out. (read timeout=15)
+2026-02-11 14:32:12,996 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:15,461 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:17,950 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:20,435 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:22,947 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:25,459 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:28,015 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:30,611 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:33,197 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:35,793 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:38,373 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:41,006 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:43,875 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:46,376 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:49,171 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:51,625 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:54,183 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:56,663 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:32:59,517 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:02,122 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:04,762 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:07,336 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:09,892 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:12,453 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:15,072 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:17,742 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:20,361 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:23,024 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:25,713 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:28,386 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:31,095 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:33,575 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:36,063 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:38,553 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:41,034 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:43,510 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:46,024 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:48,508 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:50,998 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:53,472 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:55,969 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:33:58,452 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:00,958 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:03,471 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:05,948 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:08,433 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:10,901 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:13,379 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:15,910 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:18,510 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:21,137 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:23,821 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:26,381 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:29,241 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:31,770 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:34,491 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:37,142 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:40,216 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:43,185 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:46,213 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:49,180 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:52,175 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:55,203 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:34:57,859 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:00,579 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:03,373 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:06,093 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:08,774 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:12,780 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:15,457 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:17,949 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:20,466 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:22,984 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:25,446 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:27,916 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:30,409 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:32,888 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:35,373 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:37,880 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:40,348 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:43,045 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:45,790 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:48,510 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:51,508 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:54,334 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:56,826 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:35:59,338 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:02,010 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:04,524 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:07,063 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:09,547 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:12,003 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:14,487 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:17,014 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:19,504 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:21,985 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:24,477 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:26,990 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:29,486 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:32,015 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:34,552 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:37,032 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:39,534 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:42,172 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:44,861 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:47,587 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:50,273 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:52,910 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:55,562 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:36:58,215 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:01,106 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:03,793 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:06,467 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:08,943 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:11,746 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:14,519 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:17,162 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:19,641 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:22,104 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:24,624 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:27,118 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:29,594 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:32,060 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:34,580 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:37,139 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:39,592 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:42,064 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:44,572 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:47,070 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:49,664 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:52,145 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:54,662 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:57,190 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:37:59,667 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:02,438 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:04,994 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:07,500 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:09,964 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:12,472 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:15,047 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:17,638 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:20,142 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:22,624 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:25,119 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:27,614 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:30,187 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:32,802 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:35,495 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:38,193 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:40,817 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:43,449 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:45,951 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:48,458 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:50,956 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:53,438 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:55,915 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:38:58,443 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:00,926 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:03,436 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:05,943 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:08,493 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:10,992 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:13,505 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:15,971 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:18,572 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:21,359 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:23,854 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:26,338 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:28,810 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:31,689 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:34,527 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:37,167 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:39,835 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:42,514 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:45,223 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:47,884 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:50,522 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:53,224 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:55,872 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:39:58,346 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:00,870 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:03,397 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:05,989 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:08,534 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:11,033 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:13,549 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:16,030 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:18,492 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:20,976 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:23,476 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:26,002 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:28,516 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:31,090 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:33,591 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:36,117 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:38,600 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:41,142 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:43,622 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:46,170 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:48,685 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:51,299 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:53,810 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:56,275 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:40:58,762 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:01,545 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:04,129 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:06,704 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:09,208 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:12,018 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:14,627 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:17,116 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:19,633 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:22,241 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:24,890 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:27,483 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:30,071 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:32,577 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:35,103 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:37,631 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:40,109 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:42,602 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:45,267 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:47,867 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:50,456 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:53,195 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:55,844 - ERROR - API request failed: 404 Client Error: Not Found for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:41:58,551 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:42:01,439 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:42:04,061 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:42:06,668 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:42:09,161 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:42:11,943 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:42:14,810 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query&symbol=IBM
+2026-02-11 14:58:49,516 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-11 14:58:49,605 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-11 14:58:49,605 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-11 14:58:50,104 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 14:59:50,772 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:00:51,316 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:01:51,818 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:02:52,403 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:03:49,627 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-11 15:03:49,627 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-11 15:03:49,631 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-11 15:03:53,156 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:04:53,913 - INFO - Loaded data for IBM
+2026-02-11 15:05:55,159 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:06:55,819 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:07:56,483 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:08:57,013 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:09:57,623 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:10:58,094 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:11:58,643 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:12:59,213 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:13:59,750 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:15:00,218 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:16:00,707 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:17:01,179 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:18:01,627 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:19:02,168 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:20:02,688 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:21:03,166 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&symbol=IBM
+2026-02-11 15:22:47,160 - INFO - Loaded data for IBM
+2026-02-11 15:27:20,720 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-11 15:27:20,837 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-11 15:27:20,837 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-11 15:27:21,521 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-11 15:28:37,023 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-11 15:29:52,693 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-11 15:31:08,203 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-11 15:32:22,410 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-11 15:32:22,413 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-11 15:32:22,415 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-11 15:32:24,631 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-11 15:33:48,604 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-11 18:09:38,434 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-11 18:09:38,667 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-11 18:09:38,667 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-11 18:09:39,403 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-11 18:11:39,915 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-11 18:29:12,426 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-11 18:29:12,641 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-11 18:29:12,643 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-11 18:29:13,231 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-11 18:35:44,347 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_INTRADAY&interval=5min&outputsize=compact&datatype=json&symbol=IBM
+2026-02-12 13:24:16,689 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 13:24:17,699 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]> timed out after 1000.0 ms. Closing connection.
+2026-02-12 13:24:17,700 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 1000.0 ms
+2026-02-12 13:24:17,702 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-12 13:24:18,204 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]> timed out after 500.0 ms. Closing connection.
+2026-02-12 13:24:18,204 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 500.0 ms
+2026-02-12 13:24:18,209 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 13:24:18,466 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]> timed out after 250.0 ms. Closing connection.
+2026-02-12 13:24:18,466 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 250.0 ms
+2026-02-12 13:24:18,467 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-12 13:24:18,611 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]> timed out after 125.0 ms. Closing connection.
+2026-02-12 13:24:18,612 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 125.0 ms
+2026-02-12 13:24:18,614 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 13:24:18,681 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]> timed out after 62.5 ms. Closing connection.
+2026-02-12 13:24:18,681 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 62.5 ms
+2026-02-12 13:36:44,264 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-02-12 13:36:45,271 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]> timed out after 1000.0 ms. Closing connection.
+2026-02-12 13:36:45,273 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 1000.0 ms
+2026-02-12 13:36:45,275 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-02-12 13:36:45,781 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-02-12 13:36:45,781 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-02-12 13:36:50,371 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:36:50,371 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:36:50,372 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:36:50,372 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:36:53,137 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:36:53,137 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:36:53,137 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:36:53,137 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:36:55,915 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:36:55,916 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:36:55,916 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:36:55,917 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:36:58,695 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:36:58,695 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:36:58,695 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:36:58,695 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:37:01,444 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:37:01,444 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:37:01,444 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:37:01,445 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:37:04,188 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:37:04,188 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:37:04,188 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:37:04,189 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:37:06,962 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:37:06,962 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:37:06,962 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:37:06,962 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:37:09,880 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:37:09,881 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:37:09,881 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:37:09,881 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:37:17,382 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:37:17,383 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:37:17,383 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:37:17,384 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:37:29,577 - WARNING - DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2026-02-12 13:37:29,577 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2026-02-12 13:37:29,577 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2026-02-12 13:37:29,579 - WARNING - Node 1 connection failed -- refreshing metadata
+2026-02-12 13:38:19,582 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-02-12 13:38:21,006 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]> timed out after 500.0 ms. Closing connection.
+2026-02-12 13:38:21,008 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 500.0 ms
+2026-02-12 13:38:21,010 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-02-12 13:38:21,300 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]> timed out after 250.0 ms. Closing connection.
+2026-02-12 13:38:21,302 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 250.0 ms
+2026-02-12 13:38:21,305 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-02-12 13:38:21,446 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]> timed out after 125.0 ms. Closing connection.
+2026-02-12 13:38:21,447 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 125.0 ms
+2026-02-12 13:38:21,448 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-02-12 13:38:21,516 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]> timed out after 62.5 ms. Closing connection.
+2026-02-12 13:38:21,518 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 62.5 ms
+2026-02-12 13:38:21,520 - WARNING - No node available during check_version; sleeping 0.02 secs
+2026-02-12 13:38:21,539 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-02-12 14:19:09,862 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 14:19:10,292 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-12 14:19:10,292 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 14:19:11,832 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 14:19:11,832 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 14:19:11,832 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-12 15:19:18,779 - INFO - Closing idle connection 1, last active 2106346 ms ago
+2026-02-12 15:19:18,963 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-12 15:19:19,314 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 15:19:19,335 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 15:46:02,601 - INFO - Closing idle connection 1, last active 1475339 ms ago
+2026-02-12 15:46:02,679 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-12 15:46:03,879 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 15:46:03,957 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 16:32:59,783 - INFO - Closing idle connection 1, last active 2678005 ms ago
+2026-02-12 16:32:59,815 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-12 16:32:59,937 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 16:33:00,061 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 17:07:32,434 - INFO - Closing idle connection 1, last active 1701876 ms ago
+2026-02-12 17:07:33,103 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-12 17:07:34,491 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 17:07:34,548 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 17:14:49,655 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 17:14:50,448 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-12 17:14:50,449 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 17:14:51,658 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 17:14:51,658 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 17:14:51,658 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-12 19:55:27,151 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 19:55:28,157 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]> timed out after 1000.0 ms. Closing connection.
+2026-02-12 19:55:28,158 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 1000.0 ms
+2026-02-12 19:55:28,159 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-12 19:55:28,669 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]> timed out after 500.0 ms. Closing connection.
+2026-02-12 19:55:28,669 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 500.0 ms
+2026-02-12 19:55:28,671 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 19:55:28,939 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]> timed out after 250.0 ms. Closing connection.
+2026-02-12 19:55:28,939 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 250.0 ms
+2026-02-12 19:55:28,940 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-12 19:55:28,995 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Broker version identified as 0.8.2
+2026-02-12 19:55:28,996 - INFO - Set configuration api_version=(0, 8, 2) to skip auto check_version requests on startup
+2026-02-12 19:55:28,996 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv4 ('127.0.0.1', 9094)]>: Connection complete.
+2026-02-12 19:55:30,420 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 19:55:30,421 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 19:55:30,422 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. 
+2026-02-12 19:56:00,426 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]> timed out after 30000.0 ms. Closing connection.
+2026-02-12 19:56:00,427 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 30000.0 ms
+2026-02-12 19:56:00,429 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-12 19:56:00,429 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv4 ('127.0.0.1', 9094)]>: Connection complete.
+2026-02-12 21:51:43,678 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 21:51:44,684 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]> timed out after 1000.0 ms. Closing connection.
+2026-02-12 21:51:44,685 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 1000.0 ms
+2026-02-12 21:51:44,685 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-12 21:51:44,877 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9094)]>: Broker version identified as 2.6
+2026-02-12 21:51:44,877 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv4 ('127.0.0.1', 9094)]>: Connection complete.
+2026-02-12 21:51:46,366 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 21:51:46,367 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 21:51:46,367 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv4 ('127.0.0.1', 9094)]>: Closing connection. 
+2026-02-12 21:52:16,405 - WARNING - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]> timed out after 30000.0 ms. Closing connection.
+2026-02-12 21:52:16,409 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 30000.0 ms
+2026-02-12 21:52:16,529 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv4 ('127.0.0.1', 9094)]>: connecting to localhost:9094 [('127.0.0.1', 9094) IPv4]
+2026-02-12 21:52:16,532 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv4 ('127.0.0.1', 9094)]>: Connection complete.
+2026-02-12 22:34:20,231 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 22:34:20,643 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-12 22:34:20,643 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 22:34:22,167 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 22:34:22,167 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 22:34:22,167 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-12 22:38:38,287 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 22:38:38,399 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-12 22:38:38,399 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 22:38:39,444 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 22:38:39,444 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 22:38:39,444 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-12 23:41:55,992 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 23:41:56,411 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-12 23:41:56,411 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 23:41:57,610 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-12 23:41:57,615 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-12 23:41:57,615 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-13 00:01:37,792 - INFO - Closing idle connection 1, last active 872521 ms ago
+2026-02-13 00:01:37,814 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-13 00:01:37,831 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-13 00:01:37,834 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-13 00:55:25,921 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-13 00:55:26,067 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2026-02-13 00:55:26,067 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-13 00:56:42,885 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-13 00:56:42,896 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-13 00:56:42,896 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-13 03:00:05,686 - INFO - Closing idle connection 1, last active 3873205 ms ago
+2026-02-13 03:00:06,424 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-13 03:00:07,131 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-13 03:00:07,141 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-13 05:54:39,065 - INFO - Closing idle connection 1, last active 10464291 ms ago
+2026-02-13 05:54:39,089 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-13 05:54:40,662 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-13 05:54:40,665 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-13 07:08:41,622 - INFO - Closing idle connection 1, last active 4429505 ms ago
+2026-02-13 07:08:44,093 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2026-02-13 07:08:46,850 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2026-02-13 07:08:46,865 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2026-02-13 07:13:34,498 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 

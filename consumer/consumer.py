@@ -2,19 +2,20 @@ from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, TimestampType, FloatType
 from pyspark.sql.functions import from_json, col
 import os
-
+from pyspark.sql.functions import col, to_timestamp
+from pyspark.sql.types import DoubleType
 
 # directory where Spark will store its checkpoint data. crucial in streaming to enable fault tolerance
-checkpoint_dir = "/tmp/checkpoint/kafka_to_postgres" 
+checkpoint_dir = "/tmp/checkpoint/stock_prices_to_postgres"
 if not os.path.exists(checkpoint_dir):
   os.makedirs(checkpoint_dir)
 
 
 postgres_config = {
     "url": "jdbc:postgresql://postgres:5432/stock_data",
-    "user": "admin",       
-    "password": "admin", 
-    "dbtable": "stocks", 
+    "dbtable": "public.stocks",
+    "user": "admin",
+    "password": "admin",
     "driver": "org.postgresql.Driver"
 }
 
@@ -29,39 +30,43 @@ kafka_data_schema = StructType([
   StructField("symbol", StringType())
 ])
 
-spark = (SparkSession.builder
-         .appName('KafkaSparkStreaming')
-         .getOrCreate() 
+spark = (
+    SparkSession.builder
+    .appName("KafkaSparkStreaming")
+    .config("spark.jars.packages", "org.postgresql:postgresql:42.7.3")
+    .getOrCreate()
 )
 
-
-df = ( spark.readStream.format('kafka')
-  .option('kafka.bootstrap.servers', 'kafka:9092')
-  .option('subscribe', 'stock_analysis')
-  .option('startingOffsets', 'latest') # Read only new incoming messages (ignore old messages in the topic)
-  .option('failOnDataLoss', 'false') # If Kafka deletes old messages (retention), Spark won't crash.
-  .load() # start reading the Kafka topic as a stream
+kafka_df = (
+    spark.readStream
+    .format("kafka")
+    .option("kafka.bootstrap.servers", "kafka:9092")
+    .option("subscribe", "stock_prices")
+    .option("startingOffsets", "earliest")
+    .load()
 )
 
 
 # Convert the 'value' column (which is a JSON string) into structured columns
-parsed_df = df.selectExpr( 'CAST(value AS STRING)') \
+parsed_df = kafka_df.selectExpr( 'CAST(value AS STRING)') \
               .select(from_json(col("value"), kafka_data_schema).alias("data")) \
               .select("data.*")
 
 processed_df = parsed_df.select(
-    col("date").cast(TimestampType()).alias("date"),
-    col("high").alias("high"),
-    col("low").alias("low"),
-    col("open").alias("open"),
-    col("close").alias("close"),
-    col("symbol").alias("symbol")
+    to_timestamp(col("date")).alias("date"),
+    col("open").cast(DoubleType()).alias("open"),
+    col("high").cast(DoubleType()).alias("high"),
+    col("low").cast(DoubleType()).alias("low"),
+    col("close").cast(DoubleType()).alias("close"),
+    col("symbol").alias("symbol"),
 )
 
 def write_to_postgres(batch_df, batch_id):
     """
     Writes a microbatch DataFrame to PostgreSQL using JDBC in 'append' mode.
     """
+    print(f"Writing batch {batch_id} with {batch_df.count()} rows")
+    
     batch_df.write \
         .format("jdbc") \
         .mode("append") \
