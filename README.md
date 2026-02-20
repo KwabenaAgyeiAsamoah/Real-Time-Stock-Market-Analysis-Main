@@ -54,9 +54,9 @@ Step 4 — Storage
 Processed data is written into a PostgreSQL database.
 Step 5 — Visualisation
 Power BI connects to PostgreSQL to display stock insights.
-[PostgresSQL](_img/Postgres_table.png)
+![PostgresSQL](_img/Postgres_table.png)
 Step 6 — Monitoring/Grafana for visualisation
-[Grafana](_img/Grafana%20for%20visualisation.png)
+![Grafana](_img/Grafana%20for%20visualisation.png)
 Prometheus monitors container health and system metrics.
 
 Running the Project
@@ -82,7 +82,7 @@ The dashboard includes:
 •	Intraday price movement
 •	Symbol filter
 These visuals prove that the pipeline is working end-to-end.
-[Power BI visuals](_img/Price%20Movement%20Within%20Trading%20Day-Power%20BI.png)
+![Power BI visuals](_img/Price%20Movement%20Within%20Trading%20Day-Power%20BI.png)
 ![Power BI visuals](_img/Symbol_Filter_PowerBI.png)
 ![Power BI visuals](_img/Price_Trend_Over_Time-PowerBI.png)
 ![Power BI visuals](_img/Daily%20Trading%20Range(High%20&Low)-Power%20BI.png)
