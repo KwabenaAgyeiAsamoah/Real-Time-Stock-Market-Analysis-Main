@@ -45,7 +45,7 @@ Project Structure
 How the Pipeline Works
 Step 1 — Data Extraction
 The Python producer fetches stock data from the Alpha Vantage API.
-![Alpha Vantage API](_Img/)
+![Alpha Vantage API](_img/Alpha_Vantage_API.png)
 Step 2 — Streaming
 The producer sends JSON stock events into Kafka topics.
 Step 3 — Processing
@@ -55,7 +55,8 @@ Processed data is written into a PostgreSQL database.
 Step 5 — Visualisation
 Power BI connects to PostgreSQL to display stock insights.
 [PostgresSQL](_img/Postgres_table.png)
-Step 6 — Monitoring
+Step 6 — Monitoring/Grafana for visualisation
+[Grafana](_img/Grafana%20for%20visualisation.png)
 Prometheus monitors container health and system metrics.
 
 Running the Project
