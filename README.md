@@ -15,7 +15,7 @@ The goal of this project is to demonstrate real-time data engineering concepts, 
  All components are containerized with Docker for easy deployment.
 
  ### Data Pipeline Architecture
- ![Data Pipeline Architecture](_img/Real-Time Stock Data Pipeline Architecture.png)
+ ![Data Pipeline Architecture](_img/Real_Time_Stock_Data_Pipeline_Architecture.png)
 
 
  The pipeline follows this flow:
@@ -45,6 +45,7 @@ Project Structure
 How the Pipeline Works
 Step 1 — Data Extraction
 The Python producer fetches stock data from the Alpha Vantage API.
+![Alpha Vantage API](_Img/)
 Step 2 — Streaming
 The producer sends JSON stock events into Kafka topics.
 Step 3 — Processing
@@ -53,6 +54,7 @@ Step 4 — Storage
 Processed data is written into a PostgreSQL database.
 Step 5 — Visualisation
 Power BI connects to PostgreSQL to display stock insights.
+[PostgresSQL](_img/Postgres_table.png)
 Step 6 — Monitoring
 Prometheus monitors container health and system metrics.
 
@@ -79,6 +81,10 @@ The dashboard includes:
 •	Intraday price movement
 •	Symbol filter
 These visuals prove that the pipeline is working end-to-end.
+[Power BI visuals](_img/Price%20Movement%20Within%20Trading%20Day-Power%20BI.png)
+![Power BI visuals](_img/Symbol_Filter_PowerBI.png)
+![Power BI visuals](_img/Price_Trend_Over_Time-PowerBI.png)
+![Power BI visuals](_img/Daily%20Trading%20Range(High%20&Low)-Power%20BI.png)
 
 Monitoring
 Prometheus is configured to monitor system metrics and Docker containers.
